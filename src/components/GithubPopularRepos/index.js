@@ -29,7 +29,7 @@ class GithubPopularRepos extends Component {
   }
 
   setRepositories = (fetchedData, loadingStatus) => {
-    this.setStatus({
+    this.setState({
       repositoriesData: fetchedData,
       isLoading: loadingStatus,
     })
